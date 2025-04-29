@@ -26,8 +26,6 @@ I loaded the aviation dataset and :
 
 
 
- **Source**: [**Dataset**] (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
-
 ### Business Goal
 The business aims at:
 ### 1.Risk Profiling:
