@@ -11,7 +11,8 @@ The dataset includes critical attributes such as accident timelines, aircraft pu
 I did Data Pre-processing, Cleaning and Manipulation to fully understand our data set before delving into comprehensive Data Analysis.Thereafter, we will draw actionable insights and recommendations from the data analysed and advise the company on the possible risks and how to avoid them.
 
 The Aviation Accident Database & Synopses, up to 2023 Data was downloaded from Kaggle as a Zip file and later extracted into CSV files 
-The data was provided by  the National Transportation Safety Board .
+The data was provided by  the National Transportation Safety Board .Below is the link to the Data source:
+**Source**: [**Dataset**] (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 
 It contained aviation accident data from 1962 to 2023 about aviation accidents in the U.S and aviation waters.The Aviation data was later loaded to Jupyter notebook as a data frame for further cleaning, manipulation and analysis
 
@@ -23,7 +24,6 @@ I loaded the aviation dataset and :
 5.Prepared a clean, well-structured dataset ready for trend analysis and studying flight risks.
 6.Finally imported the cleaned data set
 
-**View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/Tableauwork_17458700061740/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
  **Source**: [**Dataset**] (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
@@ -43,16 +43,17 @@ We will Provide evidence-based guidance for selecting low-risk aircraft and opti
 
 ### Questions to Address:
 1. Has the number of accidents decreased over time due to technological or regulatory improvements?
-Preliminary EDA reveals a peak in accidents around 1980–1990, followed by a steady decline, suggesting improved safety measures in recent decades.
 2. Do certain flight purposes (e.g., personal, commercial) correlate with higher accident rates?
-Initial analysis shows 70% of accidents involved personal flights, highlighting this as a high-risk category.
 3. Which is the safest Make and Model of aircraft?
 4. Do Instrument Meteorological Conditions (IMC) contribute to accidents compared to Visual Meteorological Conditions (VMC)?
-Accidents under IMC (low visibility) were 2.3x more likely to result in fatalities, emphasizing the need for advanced instrumentation.
 5. Does the number of engines impact accident severity?
-Data shows 89% of accidents involved single-engine aircraft, suggesting multi-engine models may offer redundancy benefits.
+
+
+### Data Analysis
+The analysis was done on the Aviation Analysis.ipynb Python Notebook
 
 ### Key Findings
+Below is a summary of the key findings:
 Aircraft accidents before 1980 were extremely minimal, suggesting both very few accidents occurred during this time or that data collection and record-keeping systems were either weak or non-existent. Accurate accident reporting likely gained momentum post-1980 when aviation oversight improved globally.
 
 Starting from 1980, there was a sharp rise in the number of recorded aircraft accidents, reaching a peak shortly afterward. However, from the early 1980s to 2020, we observe a steady and significant decline in accident numbers, reducing to approximately 1,600 by 2020. This sharp and consistent decrease strongly suggests major improvements in aviation safety over time. While multiple factors could contribute to this positive trend, one notable driver has been technological advancement, from better navigation systems, automated control systems, to stricter maintenance and operational standards.
@@ -78,6 +79,19 @@ All the Models of Fairchild(KR-31,M 62A-3,M-62A (PT-19), M62A (PT-19)) and Zwick
 
 Furthermore, aircraft with only one engine were associated with the highest accident rates. While two- and four-engine aircraft also experience accidents, the rates are much lower. Interestingly, the data shows that adding more engines doesn't linearly reduce accident risk — for instance, four engines do not guarantee four times the safety compared to one engine. This suggests that operational practices, pilot competence, and maintenance quality play more crucial roles than simply the number of engines.
 
+The findings were visually presented in a Tableau dashboard with the link below:
+**View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/Tableauwork_17458700061740/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+Furthermore, a quick view of the notebook gives the following visuals:
+![alt text](<Accident Trends.png>)
+![alt text](<Purpose and Engine Types vs Number of Accidents.png>) 
+![alt text](<Purpose of Aircraft against Number of Accidents.png>) 
+![alt text](<Accidents and Weather Condition Tools.png>) 
+![alt text](<Aircraft Accident Frequency by Engine Count.png>) 
+![alt text](<Most Accident Prone Aircraft.png>) 
+![alt text](<Number of Injured and Uninjured.png>)
+
+
 
 #### Key Recommendations
 
@@ -92,3 +106,9 @@ All the Models of Fairchild(KR-31,M 62A-3,M-62A (PT-19), M62A (PT-19)) and Zwick
 
 3. With the higher risks associated to the Personal Aircrafts, the company should consider investing more in Commercial Aircrafts.
 4. The company should heavily invest in Instruments Metereological Conditions Tools and encourage their pilots to always use IMC as opposed to VMC
+
+
+### References
+1. https://www.youtube.com/c/LukeBarousse
+2. Class work
+3. https://www.youtube.com/@DataWithBaraa
