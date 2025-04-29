@@ -1,10 +1,32 @@
-## Business Understanding
+### Business Understanding
 
 The aviation industry presents complex risks that require data-driven insights to inform operational decisions. 
 
 This analysis leverages the National Transportation Safety Board's aviation accident dataset (1962-2023) to evaluate risk patterns and guide strategic recommendations for entering the aviation sector. 
 
 The dataset includes critical attributes such as accident timelines, aircraft purpose, weather conditions, engine configurations, and injury severity, which will be analyzed to identify low-risk aircraft profiles.
+
+## Data Pre-processing
+
+I did Data Pre-processing, Cleaning and Manipulation to fully understand our data set before delving into comprehensive Data Analysis.Thereafter, we will draw actionable insights and recommendations from the data analysed and advise the company on the possible risks and how to avoid them.
+
+The Aviation Accident Database & Synopses, up to 2023 Data was downloaded from Kaggle as a Zip file and later extracted into CSV files 
+The data was provided by  the National Transportation Safety Board .
+
+It contained aviation accident data from 1962 to 2023 about aviation accidents in the U.S and aviation waters.The Aviation data was later loaded to Jupyter notebook as a data frame for further cleaning, manipulation and analysis
+
+I loaded the aviation dataset and :
+1.Cleaned the column names, fixing date formats, and adding a "Year" column 
+2.Removed columns with too much missing information 
+3.Imputation of important columns such as engine types, models
+4.Checked for duplicates and standardized the categories
+5.Prepared a clean, well-structured dataset ready for trend analysis and studying flight risks.
+6.Finally imported the cleaned data set
+
+**View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/Tableauwork_17458700061740/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
+ **Source**: [**Dataset**] (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 
 ### Business Goal
 The business aims at:
