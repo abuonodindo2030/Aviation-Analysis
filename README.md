@@ -81,13 +81,13 @@ The findings were visually presented in a Tableau dashboard with the link below:
 **View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/Tableauwork_17458700061740/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Furthermore, a quick view of the notebook gives the following visuals:
-![alt text](<Accident Trends.png>)
-![alt text](<Purpose and Engine Types vs Number of Accidents.png>) 
 ![alt text](<Purpose of Aircraft against Number of Accidents.png>) 
+![alt text](<Accident Trends.png>) 
 ![alt text](<Accidents and Weather Condition Tools.png>) 
 ![alt text](<Aircraft Accident Frequency by Engine Count.png>) 
 ![alt text](<Most Accident Prone Aircraft.png>) 
-![alt text](<Number of Injured and Uninjured.png>)
+![alt text](<Number of Injured and Uninjured.png>) 
+![alt text](<Purpose and Engine Types vs Number of Accidents.png>)
 
 
 
